@@ -49,7 +49,7 @@ public class RoleTest {
 
     }
     @Test
-    public void testUserDetailsHappyFlow() throws Exception {
+    public void testUserDetailsHappyFlow2() throws Exception {
     	Assert.assertEquals(EXPECTED_ID, role.getId());
         Assert.assertEquals(EXPECTED_ROLENAME, role.getName());
         Assert.assertEquals(EXPECTED_SIZE,role.getUsers().size());
