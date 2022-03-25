@@ -48,4 +48,11 @@ public class RoleTest {
         Assert.assertEquals(EXPECTED_SIZE,role.getUsers().size());
 
     }
+    @Test
+    public void testUserDetailsHappyFlow() throws Exception {
+    	Assert.assertEquals(EXPECTED_ID, role.getId());
+        Assert.assertEquals(EXPECTED_ROLENAME, role.getName());
+        Assert.assertEquals(EXPECTED_SIZE,role.getUsers().size());
+
+    } 	
 }
